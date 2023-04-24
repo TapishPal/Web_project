@@ -28,16 +28,16 @@ const Navbar = () => {
         ) : (
           <DarkModeOutlinedIcon onClick={toggle} />
         )}
-        <GridViewOutlinedIcon />
+        {/* <GridViewOutlinedIcon /> */}
         <div className="search">
           <SearchOutlinedIcon />
           <input type="text" placeholder="Search..." />
         </div>
       </div>
       <div className="right">
-        <PersonOutlinedIcon />
+        {/* <PersonOutlinedIcon />
         <EmailOutlinedIcon />
-        <NotificationsOutlinedIcon />
+        <NotificationsOutlinedIcon /> */}
         <div className="user">
           <img
             src={currentUser.profilePic}
